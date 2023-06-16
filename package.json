@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.15.2",
+    "@types/node-cron": "^3.0.7",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "eslint": "^8.36.0",
@@ -29,6 +30,7 @@
     "seed": "ts-node ./prisma/seed.ts"
   },
   "dependencies": {
-    "@prisma/client": "4.15.0"
+    "@prisma/client": "4.15.0",
+    "node-cron": "^3.0.2"
   }
 }
