@@ -1,0 +1,50 @@
+== Return ==
+0: contract Counter 0x072Ec0e471dE7cC5E915697D96b98618b3678985
+
+## Setting up (1) EVMs.
+
+==========================
+
+Chain 11155111
+
+Estimated gas price: 3.000011076 gwei
+
+Estimated total gas used for script: 125310
+
+Estimated amount required: 0.00037593138793356 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 0].
+⠁ [00:00:00] [################################################################################] 1/1 txes (0.0s)
+Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/11155111/run-latest.json
+
+##
+Waiting for receipts.
+⠉ [00:00:14] [############################################################################] 1/1 receipts (0.0s)
+##### sepolia
+✅ Hash: 0x3b66d7d5b2de4400982be4ffb0792d1f89d020adfaa57227e6117cf800aaf46d
+Contract Address: 0x072ec0e471de7cc5e915697d96b98618b3678985
+Block: 3702846
+Paid: 0.000289227528706956 ETH (96409 gas * 3.000005484 gwei)
+
+
+Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/11155111/run-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+Total Paid: 0.000289227528706956 ETH (96409 gas * avg 3.000005484 gwei)
+
+Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/11155111/run-latest.json
+
+Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/11155111/run-latest.json
