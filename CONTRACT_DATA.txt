@@ -1,5 +1,11 @@
+REMIX: 0x6754953515e75Ac80f8CdD0F8120477C9A51B4A8
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Script ran successfully.
+
 == Return ==
-0: contract Counter 0x072Ec0e471dE7cC5E915697D96b98618b3678985
+0: contract Counter 0xc1795B27dfF7C1483fA6F592626B2b7Cad2183a7
 
 ## Setting up (1) EVMs.
 
@@ -7,11 +13,11 @@
 
 Chain 11155111
 
-Estimated gas price: 3.000011076 gwei
+Estimated gas price: 3.000000018 gwei
 
-Estimated total gas used for script: 125310
+Estimated total gas used for script: 129701
 
-Estimated amount required: 0.00037593138793356 ETH
+Estimated amount required: 0.000389103002334618 ETH
 
 ==========================
 
@@ -19,19 +25,19 @@ Estimated amount required: 0.00037593138793356 ETH
 Finding wallets for all the necessary addresses...
 ##
 Sending transactions [0 - 0].
-⠁ [00:00:00] [################################################################################] 1/1 txes (0.0s)
+⠁ [00:00:00] [####################################################################################################################################] 1/1 txes (0.0s)
 Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/11155111/run-latest.json
 
 Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/11155111/run-latest.json
 
 ##
 Waiting for receipts.
-⠉ [00:00:14] [############################################################################] 1/1 receipts (0.0s)
+⠉ [00:00:20] [################################################################################################################################] 1/1 receipts (0.0s)
 ##### sepolia
-✅ Hash: 0x3b66d7d5b2de4400982be4ffb0792d1f89d020adfaa57227e6117cf800aaf46d
-Contract Address: 0x072ec0e471de7cc5e915697d96b98618b3678985
-Block: 3702846
-Paid: 0.000289227528706956 ETH (96409 gas * 3.000005484 gwei)
+✅ Hash: 0xb9840a313e3e10b27845a4f42dc4b4a7fbcc26e8028458b1a58df09f9b069daa
+Contract Address: 0xc1795b27dff7c1483fa6f592626b2b7cad2183a7
+Block: 3845127
+Paid: 0.00029937600099792 ETH (99792 gas * 3.00000001 gwei)
 
 
 Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/11155111/run-latest.json
@@ -43,8 +49,67 @@ Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounte
 ==========================
 
 ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
-Total Paid: 0.000289227528706956 ETH (96409 gas * avg 3.000005484 gwei)
+Total Paid: 0.00029937600099792 ETH (99792 gas * avg 3.00000001 gwei)
 
 Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/11155111/run-latest.json
 
 Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/11155111/run-latest.json
+
+
+
+---------------------------------------Anvil---------------------------------------
+== Return ==
+0: contract Counter 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+EIP-3855 is not supported in one or more of the RPCs used.
+Unsupported Chain IDs: 31337.
+Contracts deployed with a Solidity version equal or higher than 0.8.20 might not work properly.
+For more information, please see https://eips.ethereum.org/EIPS/eip-3855
+
+## Setting up (1) EVMs.
+
+==========================
+
+Chain 31337
+
+Estimated gas price: 5 gwei
+
+Estimated total gas used for script: 129701
+
+Estimated amount required: 0.000648505 ETH
+
+==========================
+
+###
+Finding wallets for all the necessary addresses...
+##
+Sending transactions [0 - 0].
+⠁ [00:00:00] [##################################################################################################] 1/1 txes (0.0s)
+Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/31337/run-latest.json
+
+Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/31337/run-latest.json
+
+##
+Waiting for receipts.
+⠉ [00:00:00] [##############################################################################################] 1/1 receipts (0.0s)
+##### anvil-hardhat
+✅ Hash: 0x2f5d3b23d634e673948bc86f3d4bc8a15ac375eb4a91da391fb55b89ed30a711
+Contract Address: 0x5fbdb2315678afecb367f032d93f642f64180aa3
+Block: 1
+Paid: 0.000399168 ETH (99792 gas * 4 gwei)
+
+
+Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/31337/run-latest.json
+
+Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/31337/run-latest.json
+
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+Total Paid: 0.000399168 ETH (99792 gas * avg 4 gwei)
+
+Transactions saved to: /home/amaterasu/cron/node-cron-job/broadcast/DeployCounter.s.sol/31337/run-latest.json
+
+Sensitive values saved to: /home/amaterasu/cron/node-cron-job/cache/DeployCounter.s.sol/31337/run-latest.json

@@ -20,6 +20,7 @@
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "ethereumjs-tx": "^2.1.2",
     "nodemon": "^2.0.21",
     "prettier": "^2.8.4",
     "prisma": "^4.15.0",
@@ -31,8 +32,11 @@
   },
   "dependencies": {
     "@prisma/client": "4.15.0",
-    "dotenv": "^16.2.0",
+    "@truffle/contract": "^4.6.25",
+    "@truffle/hdwallet-provider": "^2.1.12",
+    "dotenv": "^16.3.1",
     "node-cron": "^3.0.2",
+    "pm2": "^5.3.0",
     "web3": "^4.0.1"
   }
 }
